@@ -1,0 +1,40 @@
+@charset 'utf-8';
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul , li {
+	list-style: none;
+}
+#nav {
+	width: 425px;
+	height: 50px;
+	margin: 50px auto;
+	position: relative;
+}
+ul.nav_ul li{
+	width: 85px;
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	text-align: center;
+}
+ul.nav_ul li a:hover{
+	color: red;
+	display: block;
+}
+ul.nav_ul .bg_type{
+	color: red;
+}
+div.move_bg{
+	width: 5px;
+	height: 5px;
+	background: url(emo-dot.png) no-repeat;
+	position: absolute;
+	left: 40px;
+	bottom: 0;
+}
